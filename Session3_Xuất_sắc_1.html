@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <form>
+        <label>Họ và tên: <input type="text" name="name"></label>
+        <br>
+        <label>Ngày sinh: <input type="date" name="dob"></label>
+        <br>
+        <label>Giới tính:
+            <input type="radio" name="gender" value="Nam"> Nam
+            <input type="radio" name="gender" value="Nữ"> Nữ
+        </label><br>
+        <label>Số điện thoại: <input type="tel" name="phone"></label><br>
+        <label>Email: <input type="email" name="email"></label><br>
+        <label>Địa chỉ:<br> <textarea name="address"></textarea></label><br>
+        <label>Vai trò trong nhóm:
+            <select name="role">
+                <option value="thanhvien">Thành viên</option>
+                <option value="quantri">Quản trị viên</option>
+            </select>
+        </label><br>
+        <label>Sở thích: <input type="text" name="hobby"></label><br>
+        <label>Kỹ năng:<br> <textarea name="skills"></textarea></label><br>
+        <label>Thời gian rảnh:
+            <input type="checkbox" name="free_time" value="sang"> Sáng
+            <input type="checkbox" name="free_time" value="chieu"> Chiều
+            <input type="checkbox" name="free_time" value="toi"> Tối
+        </label><br>
+        <label>Lý do tham gia nhóm:<br> <textarea name="reason"></textarea></label><br>
+        <label>Màu yêu thích: <input type="color" name="color"></label><br>
+        <label>Đăng ký nhận bản tin: <input type="checkbox" name="newsletter"></label><br>
+        <label>Nhận thông báo qua email:
+            <input type="radio" name="notify" value="email"> Email
+            <input type="radio" name="notify" value="sms"> SMS
+        </label><br>
+        <button type="submit">Đăng ký thành viên</button>
+    </form>
+</body>
+</html>

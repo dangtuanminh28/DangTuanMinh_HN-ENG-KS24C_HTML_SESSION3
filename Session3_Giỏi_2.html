@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h2>Đăng ký thông tin công dân</h2>
+    <form>
+        <label>Họ và tên:</label>
+        <input type="text" name="fullname" required>
+        <br>
+        <label>Ngày sinh:</label>
+        <input type="date" name="dob" required>
+        <br>
+        <label>Giới tính:</label>
+        <input type="radio" name="gender" value="Nam"> Nam
+        <input type="radio" name="gender" value="Nữ"> Nữ 
+        <br>
+        <label>Số căn cước công dân:</label>
+        <input type="text" name="id_number" required>
+        <br>
+        <label>Ngày cấp:</label>
+        <input type="date" name="issue_date" required>
+        <br>
+        <label>Nơi cấp:</label>
+        <input type="text" name="issue_place" required>
+        <br>
+        <label>Số điện thoại:</label>
+        <input type="tel" name="phone" required>
+        <br>
+        <label>Email:</label>
+        <input type="email" name="email" required>
+        <br>
+        <label>Địa chỉ thường trú:</label><br>
+        <textarea name="permanent_address" rows="3" cols="30"></textarea>
+        <br>
+        <label>Địa chỉ tạm trú:</label><br>
+        <textarea name="temporary_address" rows="3" cols="30"></textarea>
+        <br>
+        <label>Loại căn cước công dân:</label>
+        <input type="radio" name="id_type" value="Mới"> Căn cước công dân mới
+        <input type="radio" name="id_type" value="Cũ"> Căn cước công dân cũ 
+        <br>
+        <label>Dân tộc:</label>
+        <input type="text" name="ethnicity" required>
+        <br>
+        <label>Tôn giáo:</label>
+        <input type="text" name="religion" required>
+        <br>
+        <label>Quốc tịch:</label>
+        <input type="text" name="nationality" value="Việt Nam" required>
+        <br>
+        <label>Họ tên cha/mẹ:</label>
+        <input type="text" name="parent_name" required>
+        <br>
+        <label>Số CMND/CCCD của cha/mẹ:</label>
+        <input type="text" name="parent_id" required>
+        <br>
+        <label>Tỉnh/Thành phố:</label>
+        <select name="province">
+            <option value="">Chọn Tỉnh/Thành phố</option>
+            <option value="Hà Nội">Hà Nội</option>
+            <option value="TP. Hồ Chí Minh">TP. Hồ Chí Minh</option>
+        </select>
+        <br>
+        <button type="submit">Gửi thông tin</button>
+    </form>
+</body>
+</html>
